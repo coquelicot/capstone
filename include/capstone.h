@@ -263,7 +263,7 @@ typedef struct cs_insn {
 
 	// Pointer to cs_detail.
 	// NOTE: detail pointer is only valid when both requirements below are met:
-	// (1) CS_OP_DETAIL = CS_OPT_ON
+	// (1) CS_OPT_DETAIL = CS_OPT_ON
 	// (2) Engine is not in Skipdata mode (CS_OP_SKIPDATA option set to CS_OPT_ON)
 	//
 	// NOTE 2: when in Skipdata mode, or when detail mode is OFF, even if this pointer
